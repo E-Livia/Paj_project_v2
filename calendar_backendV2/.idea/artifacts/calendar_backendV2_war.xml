@@ -3,13 +3,11 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>calendar_backendV2</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="calendar_backendV2-1.0-SNAPSHOT.war">
+    <root id="archive" name="calendar_backend-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="calendar_backendV2:war exploded" />
     </root>
   </artifact>

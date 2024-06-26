@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/MySqlResource"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="admin"
+              password="rootadmin"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://db-calendar-app.c72uccwwakb7.us-east-1.rds.amazonaws.com:3306/test?useSSL=true&requireSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="-1"/>
+</Context>
